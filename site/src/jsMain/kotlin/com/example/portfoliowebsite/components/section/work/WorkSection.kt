@@ -1,11 +1,6 @@
 package com.example.portfoliowebsite.components.section.work
 
 import androidx.compose.runtime.Composable
-import com.example.portfoliowebsite.components.section.work.component.WorkItem
-import com.example.portfoliowebsite.components.section.work.component.WorkItemsSimpleGridVariant
-import com.example.portfoliowebsite.components.widget.section.SectionContainer
-import com.example.portfoliowebsite.model.Section
-import com.example.portfoliowebsite.model.Work
 import com.example.portfoliowebsite.theme.font.*
 import com.example.portfoliowebsite.utils.Res
 import com.varabyte.kobweb.compose.css.TextAlign
@@ -15,12 +10,9 @@ import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.*
-import com.varabyte.kobweb.silk.components.layout.SimpleGrid
-import com.varabyte.kobweb.silk.components.layout.numColumns
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.breakpoint.Breakpoint
 import com.varabyte.kobweb.silk.style.toModifier
-import com.varabyte.kobweb.silk.theme.breakpoint.rememberBreakpoint
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import com.varabyte.kobweb.silk.theme.colors.palette.overlay
 import com.varabyte.kobweb.silk.theme.colors.palette.toPalette
@@ -30,7 +22,7 @@ import org.jetbrains.compose.web.css.px
 
 @Composable
 fun WorksSection() {
-    val breakpoint = rememberBreakpoint()
+   // val breakpoint = rememberBreakpoint()
 //    SectionContainer(
 //        modifier = Modifier,
 //        section = Section.Works,

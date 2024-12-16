@@ -23,7 +23,7 @@ fun HomePage() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             StartSection()
-            WorksSection()
+            //WorksSection()
             AboutSection()
             ContactSection()
         }
