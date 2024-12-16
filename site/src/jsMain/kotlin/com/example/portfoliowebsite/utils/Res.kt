@@ -46,7 +46,7 @@ object Res {
         const val INTELLIJ_IDEA = "images/intellij_idea.svg"
         const val JAVA = "images/java.svg"
         const val FIREBASE = "images/firebase.svg"
-        const val POSTGRESQL = "images/postgresql.svg"
+        const val MONGODB = "images/mongodb.svg"
         const val JETPACK_COMPOSE = "images/compose.svg"
         const val GITHUB_LIGHT = "images/github_light.svg"
         const val GITHUB_DARK = "images/github_dark.svg"

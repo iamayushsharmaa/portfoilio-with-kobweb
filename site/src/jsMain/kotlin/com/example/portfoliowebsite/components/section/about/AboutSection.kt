@@ -34,8 +34,6 @@ import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
 
 
-//val SectionStyle = CssStyle<SectionKind> {}
-
 val AboutSectionVariant : CssStyleVariant<SectionKind> = SectionContainerStyle.addVariant {
     val colorPalette = colorMode.toPalette()
     base {
@@ -122,23 +120,4 @@ private fun TextContent() {
         )
     }
 }
-
-
-
-//@Composable
-//fun AboutSectionContainer(
-//    section: Section,
-//    modifier: Modifier = Modifier,
-//    horizontalAlignment: Alignment.Horizontal = Alignment.CenterHorizontally,
-//    verticalArrangement: Arrangement.Vertical = Arrangement.Top,
-//    variant: CssStyleVariant<SectionKind>? = null,
-//    content: @Composable ColumnScope.() -> Unit = {}
-//) {
-//    Column(
-//        modifier = SectionContainerStyle.toModifier(variant!!).id(section.id),
-//        horizontalAlignment = horizontalAlignment,
-//        verticalArrangement = verticalArrangement,
-//        content = content
-//    )
-//}
 

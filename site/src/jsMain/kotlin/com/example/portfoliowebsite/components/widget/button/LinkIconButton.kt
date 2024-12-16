@@ -4,7 +4,7 @@ package com.example.portfoliowebsite.components.widget.button
 import androidx.compose.runtime.Composable
 import com.example.portfoliowebsite.theme.icons.IconStyle
 import com.varabyte.kobweb.browser.dom.ElementTarget
-import com.varabyte.kobweb.compose.css.CSSTransition
+import com.varabyte.kobweb.compose.css.Transition
 import com.varabyte.kobweb.compose.ui.Modifier
 import com.varabyte.kobweb.compose.ui.modifiers.onClick
 import com.varabyte.kobweb.compose.ui.modifiers.scale
@@ -22,7 +22,7 @@ import com.varabyte.kobweb.silk.style.selectors.hover
 
 val LinkIconButtonVariant: CssStyleVariant<LinkKind> = LinkStyle.addVariant {
     base {
-        Modifier.transition(CSSTransition("0.15s"))
+        Modifier.transition(Transition.of("0.15s", null, null, null))
     }
     hover {
         Modifier.scale(1.1)

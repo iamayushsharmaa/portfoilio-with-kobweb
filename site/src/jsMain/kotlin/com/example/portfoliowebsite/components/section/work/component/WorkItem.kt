@@ -9,9 +9,9 @@ import com.example.portfoliowebsite.theme.font.TitleTextStyle
 import com.example.portfoliowebsite.theme.icons.ExternalLinkIcon
 import com.example.portfoliowebsite.theme.icons.IconStyle
 import com.example.portfoliowebsite.theme.icons.LargeIconSize
-import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.css.Overflow
 import com.varabyte.kobweb.compose.css.TextAlign
+import com.varabyte.kobweb.compose.css.Transition
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -21,9 +21,9 @@ import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.components.graphics.Image
-import com.varabyte.kobweb.silk.components.graphics.ImageKind
 import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.CssStyle
+import com.varabyte.kobweb.silk.style.GeneralKind
 import com.varabyte.kobweb.silk.style.selectors.before
 import com.varabyte.kobweb.silk.style.selectors.hover
 import com.varabyte.kobweb.silk.style.toModifier
@@ -47,7 +47,7 @@ val WorkItemStyle  = CssStyle {
             .position(Position.Absolute)
             .fillMaxWidth()
             .height(0.px)
-            .transition(CSSTransition("ease-in-out", 0.4.s))
+            .transition(Transition.of("ease-in-out", 0.4.s, null, null))
     }
     (hover + before) {
         Modifier.fillMaxHeight()
@@ -69,7 +69,7 @@ val WorkItemOverlayStyle = CssStyle {
         Modifier
             .position(Position.Absolute)
             .textAlign(TextAlign.Center)
-            .transition(CSSTransition("ease-in-out", 0.5.s))
+            .transition(Transition.of("ease-in-out", 0.5.s, null, null))
             .opacity(0)
             .fillMaxWidth()
             .fillMaxHeight()

@@ -10,6 +10,7 @@ import com.varabyte.kobweb.silk.style.breakpoint.Breakpoint
 import org.jetbrains.compose.web.css.cssRem
 import org.jetbrains.compose.web.css.fr
 
+
 val WorkItemsSimpleGridVariant = SimpleGridStyle.addVariant {
     base {
         Modifier

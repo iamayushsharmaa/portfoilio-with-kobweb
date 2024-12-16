@@ -6,15 +6,14 @@ import com.example.portfoliowebsite.theme.brand
 import com.example.portfoliowebsite.theme.text
 import com.example.portfoliowebsite.model.Section
 import com.example.portfoliowebsite.theme.font.Fonts
-import com.example.portfoliowebsite.theme.font.LabelLargeTextStyle
-import com.example.portfoliowebsite.theme.font.TextStyle
-import com.varabyte.kobweb.compose.css.CSSTransition
 import com.varabyte.kobweb.compose.css.ListStyleType
 import com.varabyte.kobweb.compose.css.TextDecorationLine
+import com.varabyte.kobweb.compose.css.Transition
 import com.varabyte.kobweb.compose.css.autoLength
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.components.navigation.Link
 import com.varabyte.kobweb.silk.components.navigation.LinkKind
@@ -35,7 +34,7 @@ val NavBarStyle = CssStyle {
     base {
         Modifier
             .size(autoLength)
-            .background(colorPalette.overlay)
+            .background(Colors.Transparent)
             .borderRadius(30.px)
             .listStyle(ListStyleType.None)
             .display(DisplayStyle.Flex)
@@ -71,10 +70,10 @@ val NavBarLinkVariant : CssStyleVariant<LinkKind> = LinkStyle.addVariant {
         Modifier
             .alignContent(AlignContent.Center)
             .color(colorPalette.text.primary)
-            .background(colorPalette.overlay)
+            .background(Colors.Transparent)
             .borderRadius(r = 30.px)
             .textDecorationLine(TextDecorationLine.None)
-            .transition(CSSTransition("0.2s"))
+            .transition(Transition.of("0.2s" ))
             .font { defaultFonts.bodyLarge }
     }
     hover {
@@ -84,10 +83,10 @@ val NavBarLinkVariant : CssStyleVariant<LinkKind> = LinkStyle.addVariant {
         Modifier.background(colorPalette.overlay.shifted(colorMode, 0.15f))
     }
     Breakpoint.LG {
-        Modifier.size(width = 13.5.em, height = 3.8.em)
+        Modifier.size(width = 10.9.em, height = 3.0.em)
     }
     Breakpoint.XL {
-        Modifier.size(width = 13.8.em, height = 3.9.em)
+        Modifier.size(width = 12.0.em, height = 3.2.em)
     }
 }
 
@@ -98,7 +97,7 @@ val ActiveNavBarLinkVariant : CssStyleVariant<LinkKind> = LinkStyle.addVariant {
             .color(colorPalette.brand.onPrimary)
             .background(colorPalette.brand.primary)
             .backgroundColor(colorPalette.brand.primary)
-            .transition(CSSTransition("0.1s"))
+            .transition(Transition.of("0.1s"))
     }
     hover {
         Modifier.background(colorPalette.brand.primary)

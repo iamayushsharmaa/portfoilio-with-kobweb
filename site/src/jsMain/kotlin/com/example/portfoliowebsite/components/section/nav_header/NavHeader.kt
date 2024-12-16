@@ -40,6 +40,7 @@ val NavHeaderStyle = CssStyle{
             Modifier
                 .fillMaxWidth()
                 .backgroundColor(colorPalette.background.toRgb().copyf(alpha = 0.8f))
+                //.then(SmoothColorStyle.toModifier())
                 .position(Position.Sticky)
                 .top(0.percent)
                 .backdropFilter(saturate(180.percent), blur(5.px))
@@ -48,7 +49,6 @@ val NavHeaderStyle = CssStyle{
                 .justifyContent(JustifyContent.SpaceBetween)
                 .alignItems(AlignItems.Center)
                 .zIndex(1)
-               // .then(SmoothColorStyle.toModifier())
         }
         Breakpoint.ZERO {
             Modifier.padding(left = 12.px, right = 12.px, top = 6.px, bottom = 6.px)

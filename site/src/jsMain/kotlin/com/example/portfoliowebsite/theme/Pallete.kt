@@ -1,6 +1,5 @@
 package com.example.portfoliowebsite.theme
 
-
 import com.varabyte.kobweb.compose.ui.graphics.Color
 import com.varabyte.kobweb.compose.ui.graphics.lightened
 import com.varabyte.kobweb.silk.init.InitSilk

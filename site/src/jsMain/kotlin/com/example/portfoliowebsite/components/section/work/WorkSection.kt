@@ -31,27 +31,28 @@ import org.jetbrains.compose.web.css.px
 @Composable
 fun WorksSection() {
     val breakpoint = rememberBreakpoint()
-    SectionContainer(
-        modifier = Modifier,
-        section = Section.Works,
-        verticalArrangement = Arrangement.Top,
-        horizontalAlignment = Alignment.CenterHorizontally
-    ) {
-        TextContent(breakpoint = breakpoint)
-        SimpleGrid(
-            numColumns = numColumns(base = 1, sm = 2, lg = 3),
-            variant = WorkItemsSimpleGridVariant
-        ) {
-            Work.entries.forEach {
-                WorkItem(
-                    work = it,
-                    modifier = Modifier.flex(1)
-                )
-            }
-            MoreIsYetToCome()
-        }
-    }
+//    SectionContainer(
+//        modifier = Modifier,
+//        section = Section.Works,
+//        verticalArrangement = Arrangement.Top,
+//        horizontalAlignment = Alignment.CenterHorizontally
+//    ) {
+//        TextContent(breakpoint = breakpoint)
+//        SimpleGrid(
+//            numColumns = numColumns(base = 1, sm = 2, lg = 3),
+//            variant = WorkItemsSimpleGridVariant
+//        ) {
+//            Work.entries.forEach {
+//                WorkItem(
+//                    work = it,
+//                    modifier = Modifier.flex(1)
+//                )
+//            }
+//            MoreIsYetToCome()
+//        }
+  //  }
 }
+
 
 @Composable
 private fun MoreIsYetToCome() {

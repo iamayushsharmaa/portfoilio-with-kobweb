@@ -10,39 +10,39 @@ enum class Work(
     val imageRes: String,
 ) {
     HotelX(
-        workName = "Hotel Management System",
+        workName = "Grocery App",
         description = "Tablet & Android & Backend & Design",
-        link = "",
+        link = "https://github.com/iamayushsharmaa/Ecommerce-Admin-App-",
         imageRes = Res.Images.HOTEL
     ),
     HoneyMart(
-        workName = "Honey Mart",
+        workName = "Spritual App",
         description = "Android & Backend & Design",
-        link = "https://github.com/MohamedElgohary88/Honey-Mart",
+        link = "https://github.com/iamayushsharmaa/Spritual-App",
         imageRes = Res.Images.HONEY_MART
     ),
     Blog(
-        workName = "Blog Multi-Platform",
+        workName = "HabitTrack",
         description = "Android & Backend & Design",
-        link = "https://github.com/MohamedElgohary88/BlogMultiplatform",
+        link = "https://github.com/iamayushsharmaa/Habit-Tracker",
         imageRes = Res.Images.BLOG
     ),
     Teamix(
-        workName = "Teamix App",
+        workName = "Newz",
         description = "Android & Backend & Design",
-        link = "https://github.com/MohamedElgohary88/Teamix",
+        link = "https://github.com/iamayushsharmaa/newsapp",
         imageRes = Res.Images.TEAMIX
     ),
     SkyCast(
-        workName = "SkyCast Weather App",
-        description = "Desktop & Api & Design",
-        link = "https://github.com/MohamedElgohary88/SkyCast",
+        workName = "Weather App",
+        description = "Android & Api & Design",
+        link = "https://github.com/iamayushsharmaa/weatherapp",
         imageRes = Res.Images.SKY_CAST
     ),
     Movie(
         workName = "Movies App",
         description = "Android & Design",
-        link = "https://github.com/MohamedElgohary88/MovieApp",
+        link = "https://github.com/iamayushsharmaa/MovieApp",
         imageRes = Res.Images.MOVIE
     ),
 }

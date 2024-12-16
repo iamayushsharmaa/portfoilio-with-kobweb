@@ -13,6 +13,7 @@ import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.compose.ui.toAttrs
 import com.varabyte.kobweb.silk.components.text.SpanText
@@ -39,7 +40,7 @@ val ContactCardStyle = CssStyle<CardKind> {
     base {
         Modifier
             .fillMaxWidth()
-            .background(colors.overlay)
+            .background(Colors.Transparent)
             .borderRadius(30.px)
             .padding(topBottom = 1.cssRem, leftRight = 1.cssRem)
     }

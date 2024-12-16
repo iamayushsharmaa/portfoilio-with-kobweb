@@ -8,6 +8,7 @@ import com.varabyte.kobweb.compose.foundation.layout.Arrangement
 import com.varabyte.kobweb.compose.foundation.layout.Box
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.components.layout.SimpleGrid
 import com.varabyte.kobweb.silk.components.layout.numColumns
@@ -28,7 +29,7 @@ val SkillSectionDividerStyle = CssStyle<SectionKind>{
     base {
         Modifier
             .fillMaxWidth()
-            .background(colorPalette.overlay)
+            .background(Colors.Transparent)
     }
     Breakpoint.ZERO {
         Modifier
@@ -37,11 +38,12 @@ val SkillSectionDividerStyle = CssStyle<SectionKind>{
     }
     Breakpoint.SM {
         Modifier
-            .height(15.vh)
-            .padding(topBottom = 3.cssRem)
+            .height(17.vh)
+            .padding(topBottom = 2.4.cssRem)
     }
     Breakpoint.MD {
-        Modifier.padding(topBottom = 3.4.cssRem)
+        Modifier
+            .padding(bottom = 1.cssRem)
     }
 }
 
@@ -57,7 +59,7 @@ fun SkillsSectionDivider(
     ) {
         SimpleGrid(
             modifier = Modifier
-                .gap(if (breakpoint >= Breakpoint.MD) 1.5.cssRem else 1.cssRem)
+                .gap(if (breakpoint >= Breakpoint.MD) 1.9.cssRem else 1.cssRem)
                 .padding(left = if (breakpoint <= Breakpoint.SM) 2.25.cssRem else 0.cssRem),
             numColumns = numColumns(base = 2, sm = 4, md = 4)
         ) {

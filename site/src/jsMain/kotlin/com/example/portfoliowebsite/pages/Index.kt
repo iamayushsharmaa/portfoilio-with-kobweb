@@ -2,7 +2,10 @@ package com.example.portfoliowebsite.pages
 
 import androidx.compose.runtime.*
 import com.example.portfoliowebsite.components.layout.DefaultPageLayout
+import com.example.portfoliowebsite.components.section.about.AboutSection
+import com.example.portfoliowebsite.components.section.contact.ContactSection
 import com.example.portfoliowebsite.components.section.start.StartSection
+import com.example.portfoliowebsite.components.section.work.WorksSection
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -20,9 +23,9 @@ fun HomePage() {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             StartSection()
-//            WorksSection()
-//            AboutSection()
-//            ContactSection()
+            WorksSection()
+            AboutSection()
+            ContactSection()
         }
     }
 

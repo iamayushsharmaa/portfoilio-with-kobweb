@@ -18,6 +18,7 @@ import com.example.portfoliowebsite.theme.icons.ScrollMouseIcon
 import com.example.portfoliowebsite.utils.Res
 import com.varabyte.kobweb.compose.css.CSSPosition
 import com.varabyte.kobweb.compose.css.TextAlign
+import com.varabyte.kobweb.compose.css.autoLength
 import com.varabyte.kobweb.compose.css.functions.RadialGradient
 import com.varabyte.kobweb.compose.css.functions.radialGradient
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement
@@ -164,12 +165,15 @@ private fun TextContent(
         SpanText(
             modifier = TextStyle.toModifier(SubDisplayTextStyle, TextStyleSecondaryColor)
                 .maxWidth(if (breakpoint >= Breakpoint.SM) 75.percent else 100.percent)
-                .margin(top = 3.px)
+                .margin(top = 13.px)
                 .textAlign(if (breakpoint > Breakpoint.MD) TextAlign.Start else TextAlign.Center),
             text = Res.Strings.START_SECTION_SUBTITLE
         )
         PrimaryButton(
-            modifier = Modifier.margin(top = 50.px),
+            modifier = Modifier
+                .margin(top = 50.px)
+                .height(55.px)
+                .width(autoLength),
             text = Res.Strings.START_SECTION_BUTTON_TEXT,
             icon = {
                 ArrowForwardIcon(modifier = IconStyle.toModifier(IconOnBrandColorVariant))

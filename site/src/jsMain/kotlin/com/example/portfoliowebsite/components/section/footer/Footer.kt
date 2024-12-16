@@ -14,6 +14,7 @@ import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
 import com.varabyte.kobweb.compose.ui.Alignment
 import com.varabyte.kobweb.compose.ui.Modifier
+import com.varabyte.kobweb.compose.ui.graphics.Colors
 import com.varabyte.kobweb.compose.ui.modifiers.*
 import com.varabyte.kobweb.silk.components.graphics.Image
 import com.varabyte.kobweb.silk.components.navigation.Link
@@ -40,7 +41,7 @@ val FooterStyle = CssStyle {
     base {
         Modifier
             .fillMaxWidth()
-            .background(colorMode.overlay)
+            .background(Colors.Transparent)
     }
     Breakpoint.ZERO {
         Modifier.padding(left = 12.px, right = 12.px, top = 24.px, bottom = 24.px)

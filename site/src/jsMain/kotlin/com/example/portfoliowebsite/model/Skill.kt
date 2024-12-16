@@ -60,8 +60,8 @@ enum class Skill(
     MongoDB(
         skillName = "MongoDB",
         level = "Novice",
-        iconResLight = Res.Images.POSTGRESQL,
-        iconResDark = Res.Images.POSTGRESQL
+        iconResLight = Res.Images.MONGODB,
+        iconResDark = Res.Images.MONGODB
     ),
     Firebase(
         skillName = "Firebase",
