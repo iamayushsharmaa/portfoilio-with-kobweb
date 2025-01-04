@@ -13,10 +13,10 @@ enum class Social(
         iconResLight = Res.Images.MAIL_LIGHT,
         iconResDark = Res.Images.MAIL_DARK
     ),
-    Telegram(
-        link = Res.Strings.TELEGRAM_LINK,
-        iconResLight = Res.Images.TELEGRAM_LIGHT,
-        iconResDark = Res.Images.TELEGRAM_DARK
+    X(
+        link = Res.Strings.X_Link,
+        iconResLight = Res.Images.X_LIGHT,
+        iconResDark = Res.Images.X_DARK
     ),
     GitHub(
         link = Res.Strings.GITHUB_LINK,

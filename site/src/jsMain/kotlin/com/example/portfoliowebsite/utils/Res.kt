@@ -17,11 +17,11 @@ object Res {
         const val CONTACT_SECTION_TITLE = "Connect with me"
 
         const val EMAIL_ADDRESS = "ayushs9468@gmail.com"
-        const val TELEGRAM_USERNAME = ""
+        const val TELEGRAM_USERNAME = "@AyushSharma_69"
 
         const val EMAIL_LINK = "mailto:$EMAIL_ADDRESS"
         const val GITHUB_LINK = "https://github.com/iamayushsharmaa"
-        const val TELEGRAM_LINK = "https://x.com/netfrexk"
+        const val X_Link = "https://x.com/netfrexk"
         const val LINKEDIN_LINK = "https://www.linkedin.com/in/ayush-sharma-a716b5252/"
 
         const val COPYRIGHT = "© 2024, Ayush Sharma"
@@ -52,8 +52,8 @@ object Res {
         const val GITHUB_DARK = "images/github_dark.svg"
         const val MAIL_LIGHT = "images/mail_light.svg"
         const val MAIL_DARK = "images/mail_dark.svg"
-        const val TELEGRAM_LIGHT = "images/telegram_light.svg"
-        const val TELEGRAM_DARK = "images/telegram_dark.svg"
+        const val X_LIGHT = "images/x_light.svg"
+        const val X_DARK = "images/x_light.svg"
         const val LINKEDIN_LIGHT = "images/linkedin_light.svg"
         const val LINKEDIN_DARK = "images/linkedin_dark.svg"
 

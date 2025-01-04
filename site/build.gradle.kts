@@ -1,4 +1,5 @@
 import com.varabyte.kobweb.gradle.application.util.configAsKobwebApplication
+import kotlinx.html.link
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -14,6 +15,10 @@ kobweb {
     app {
         index {
             description.set("Powered by Kobweb")
+            head.add {
+                link(rel = "stylesheet", href = "/fonts/faces.css")
+            }
+            faviconPath.set("images/logo_mini.svg")
         }
     }
 }
@@ -22,16 +27,19 @@ kotlin {
     configAsKobwebApplication("portfoliowebsite")
 
     sourceSets {
-        commonMain.dependencies {
-            implementation(libs.compose.runtime)
+        commonMain {
+            dependencies {
+                implementation(libs.compose.runtime)
+            }
         }
-
-        jsMain.dependencies {
-            implementation(libs.compose.html.core)
-            implementation(libs.kobweb.core)
-            implementation(libs.kobweb.silk)
-            implementation(libs.silk.icons.fa)
-            //implementation(libs.kobweb.worker)
+        jsMain {
+            dependencies {
+                implementation(libs.compose.html.core)
+                implementation(libs.kobweb.core)
+                implementation(libs.kobweb.silk)
+                implementation(libs.silk.icons.fa)
+                //implementation(libs.kobweb.worker)
+            }
         }
     }
 }

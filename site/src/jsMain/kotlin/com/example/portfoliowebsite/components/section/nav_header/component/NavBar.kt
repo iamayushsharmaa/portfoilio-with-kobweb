@@ -60,8 +60,6 @@ fun NavBar(
     }
 }
 
-
-
 val NavBarLinkVariant : CssStyleVariant<LinkKind> = LinkStyle.addVariant {
     val colorPalette = colorMode.toPalette()
     val defaultFonts = Fonts[Breakpoint.LG]
