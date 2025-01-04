@@ -18,7 +18,7 @@ kobweb {
             head.add {
                 link(rel = "stylesheet", href = "/fonts/faces.css")
             }
-            faviconPath.set("images/logo_mini.svg")
+         faviconPath.set("images/as_logo_mini.svg")
         }
     }
 }
