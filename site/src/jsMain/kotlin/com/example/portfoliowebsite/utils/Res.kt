@@ -53,7 +53,7 @@ object Res {
         const val MAIL_LIGHT = "images/mail_light.svg"
         const val MAIL_DARK = "images/mail_dark.svg"
         const val X_LIGHT = "images/x_light.svg"
-        const val X_DARK = "images/x_light.svg"
+        const val X_DARK = "images/x_dark.svg"
         const val LINKEDIN_LIGHT = "images/linkedin_light.svg"
         const val LINKEDIN_DARK = "images/linkedin_dark.svg"
 
