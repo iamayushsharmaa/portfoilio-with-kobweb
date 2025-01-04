@@ -9,40 +9,40 @@ enum class Work(
     val link: String,
     val imageRes: String,
 ) {
-    HotelX(
-        workName = "Grocery App",
+    Cartify(
+        workName = "Cartify",
         description = "Tablet & Android & Backend & Design",
-        link = "https://github.com/iamayushsharmaa/Ecommerce-Admin-App-",
-        imageRes = Res.Images.HOTEL
+        link = "https://github.com/iamayushsharmaa/Cartify",
+        imageRes = Res.Images.CARTIFY
     ),
-    HoneyMart(
+    Spritual(
         workName = "Spritual App",
-        description = "Android & Backend & Design",
-        link = "https://github.com/iamayushsharmaa/Spritual-App",
-        imageRes = Res.Images.HONEY_MART
-    ),
-    Blog(
-        workName = "HabitTrack",
-        description = "Android & Backend & Design",
-        link = "https://github.com/iamayushsharmaa/Habit-Tracker",
-        imageRes = Res.Images.BLOG
-    ),
-    Teamix(
-        workName = "Newz",
-        description = "Android & Backend & Design",
-        link = "https://github.com/iamayushsharmaa/newsapp",
-        imageRes = Res.Images.TEAMIX
-    ),
-    SkyCast(
-        workName = "Weather App",
-        description = "Android & Api & Design",
-        link = "https://github.com/iamayushsharmaa/weatherapp",
-        imageRes = Res.Images.SKY_CAST
-    ),
-    Movie(
-        workName = "Movies App",
         description = "Android & Design",
-        link = "https://github.com/iamayushsharmaa/MovieApp",
-        imageRes = Res.Images.MOVIE
+        link = "https://github.com/iamayushsharmaa/Spritual-App",
+        imageRes = Res.Images.SPRITUAL
+    ),
+    HabitSpark(
+        workName = "HabitSpark",
+        description = "Android & Backend & Design",
+        link = "https://github.com/iamayushsharmaa/Habit-Spark",
+        imageRes = Res.Images.HABITSPARK
+    ),
+    GlobeWise(
+        workName = "GlobeWise",
+        description = "Android & Backend & Design",
+        link = "https://github.com/iamayushsharmaa/GlobeWise",
+        imageRes = Res.Images.GLOBEWISE
+    ),
+    Cloudify(
+        workName = "Cloudify",
+        description = "Android & Api & Design",
+        link = "https://github.com/iamayushsharmaa/Cloudify",
+        imageRes = Res.Images.CLOUDIFY
+    ),
+    CinemaSync(
+        workName = "CinemaSync",
+        description = "Android & Design",
+        link = "https://github.com/iamayushsharmaa/CinemaSync",
+        imageRes = Res.Images.CINEMASYNC
     ),
 }

@@ -33,8 +33,8 @@ object Res {
     }
 
     object Images {
-        const val LOGO_DARK = "images/logo_dark.svg"
-        const val LOGO_LIGHT = "images/logo_light.svg"
+        const val LOGO_DARK = "images/logo_sharma_light.svg"
+        const val LOGO_LIGHT = "images/logo_sharma_light.svg"
         const val KOBWEB = "images/kobweb.png"
 
         const val START_IMAGE = "images/start_imagee.svg"
@@ -57,12 +57,12 @@ object Res {
         const val LINKEDIN_LIGHT = "images/linkedin_light.svg"
         const val LINKEDIN_DARK = "images/linkedin_dark.svg"
 
-        const val HONEY_MART = "images/hony.svg"
-        const val TEAMIX = "images/teamix.svg"
-        const val SKY_CAST = "images/weather.svg"
-        const val MOVIE = "images/movie.svg"
-        const val BLOG = "images/blog.svg"
-        const val HOTEL = "images/hotel.svg"
+        const val SPRITUAL = "images/spritual.svg"
+        const val GLOBEWISE = "images/globewise.svg"
+        const val CLOUDIFY = "images/cloudify.svg"
+        const val CINEMASYNC = "images/cinema_sync.svg"
+        const val HABITSPARK = "images/habit_spark.svg"
+        const val CARTIFY = "images/cartify.svg"
     }
 
 }

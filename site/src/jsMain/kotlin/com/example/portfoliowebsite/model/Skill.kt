@@ -41,7 +41,7 @@ enum class Skill(
     ),
     Java(
         skillName = "Java",
-        level = "Novice",
+        level = "Skilled",
         iconResLight = Res.Images.JAVA,
         iconResDark = Res.Images.JAVA
     ),
@@ -53,13 +53,13 @@ enum class Skill(
     ),
     Figma(
         skillName = "Figma",
-        level = "Novice",
+        level = "Skilled",
         iconResLight = Res.Images.FIGMA,
         iconResDark = Res.Images.FIGMA
     ),
     MongoDB(
         skillName = "MongoDB",
-        level = "Novice",
+        level = "Skilled",
         iconResLight = Res.Images.MONGODB,
         iconResDark = Res.Images.MONGODB
     ),
