@@ -75,10 +75,10 @@ val NavBarLinkVariant : CssStyleVariant<LinkKind> = LinkStyle.addVariant {
             .font { defaultFonts.bodyLarge }
     }
     hover {
-        Modifier.background(colorPalette.overlay.shifted(colorMode, 0.1f))
+        Modifier.background(Colors.Transparent)
     }
     active {
-        Modifier.background(colorPalette.overlay.shifted(colorMode, 0.15f))
+        Modifier.background(Colors.Transparent)
     }
     Breakpoint.LG {
         Modifier.size(width = 10.9.em, height = 3.0.em)

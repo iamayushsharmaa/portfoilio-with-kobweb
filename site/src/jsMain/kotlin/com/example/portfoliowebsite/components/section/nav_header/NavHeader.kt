@@ -151,7 +151,10 @@ fun NavHeader() {
             Box(modifier = Modifier.flex(1), contentAlignment = Alignment.CenterStart) {
                 AppLogo(colorMode = colorMode)
             }
-            NavBar(selectedSectionId = selectedSectionId)
+            NavBar(
+                selectedSectionId = selectedSectionId,
+
+            )
             Box(modifier = Modifier.flex(1), contentAlignment = Alignment.CenterEnd) {
                 ThemeIconButton(
                     colorMode = colorMode,
