@@ -14,10 +14,10 @@ version = "1.0-SNAPSHOT"
 kobweb {
     app {
         index {
-            description.set("Powered by Kobweb")
             head.add {
                 link(rel = "stylesheet", href = "/fonts/faces.css")
             }
+            description.set("Powered by Kobweb")
             faviconPath.set("images/as_logo_mini.svg")
         }
     }
