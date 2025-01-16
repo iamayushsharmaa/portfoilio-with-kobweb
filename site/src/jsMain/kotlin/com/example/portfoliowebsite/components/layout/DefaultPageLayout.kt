@@ -18,7 +18,6 @@ fun DefaultPageLayout(
     LaunchedEffect(title) {
         document.title = "Ayush Sharma - $title"
     }
-
     Column(
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
