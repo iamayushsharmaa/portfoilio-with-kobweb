@@ -33,7 +33,6 @@ import com.varabyte.kobweb.silk.theme.colors.palette.toPalette
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.css.keywords.auto
 
-
 val AboutSectionVariant : CssStyleVariant<SectionKind> = SectionContainerStyle.addVariant {
     val colorPalette = colorMode.toPalette()
     base {
@@ -70,12 +69,6 @@ val AboutSectionVariant : CssStyleVariant<SectionKind> = SectionContainerStyle.a
     }
 }
 
-
-
-//val SimpleGridStyle = CssStyle<SimpleGridKind> {}
-
-
-
 @Composable
 fun AboutSection() {
     SectionContainer(
@@ -98,6 +91,7 @@ fun AboutSection() {
         }
     }
 }
+
 
 @Composable
 private fun TextContent() {
