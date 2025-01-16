@@ -24,7 +24,7 @@ object Res {
         const val X_Link = "https://x.com/netfrexk"
         const val LINKEDIN_LINK = "https://www.linkedin.com/in/ayush-sharma-a716b5252/"
 
-        const val COPYRIGHT = "© 2024, Ayush Sharma"
+        const val COPYRIGHT = "© 2025, Ayush Sharma"
     }
 
     object FontFamilies {
@@ -33,8 +33,8 @@ object Res {
     }
 
     object Images {
-        const val LOGO_DARK = "images/logo_sharma_light.svg"
-        const val LOGO_LIGHT = "images/logo_sharma_light.svg"
+        const val LOGO_DARK = "images/a_ssharma_dark.svg"
+        const val LOGO_LIGHT = "images/a_ssharma_light.svg"
         const val KOBWEB = "images/kobweb.png"
 
         const val START_IMAGE = "images/start_imagee.svg"

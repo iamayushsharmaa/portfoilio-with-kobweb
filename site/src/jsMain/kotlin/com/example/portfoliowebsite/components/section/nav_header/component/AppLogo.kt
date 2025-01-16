@@ -22,19 +22,19 @@ val AppLogoStyle = CssStyle {
         Modifier.display(DisplayStyle.Flex)
     }
     Breakpoint.ZERO {
-        Modifier.height(1.825.cssRem)
+        Modifier.height(1.9.cssRem)
     }
     Breakpoint.SM {
-        Modifier.height(1.95.cssRem)
+        Modifier.height(2.1.cssRem)
     }
     Breakpoint.MD {
-        Modifier.height(2.cssRem)
+        Modifier.height(2.6.cssRem)
     }
     Breakpoint.LG {
-        Modifier.height(2.10.cssRem)
+        Modifier.height(3.9.cssRem)
     }
     Breakpoint.XL {
-        Modifier.height(2.99.cssRem)
+        Modifier.height(4.0.cssRem)
     }
     hover {
         Modifier

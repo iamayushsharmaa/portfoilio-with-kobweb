@@ -18,7 +18,7 @@ kobweb {
                 link(rel = "stylesheet", href = "/fonts/faces.css")
             }
             description.set("Powered by Kobweb")
-            faviconPath.set("images/as_logo_mini.svg")
+            faviconPath.set("images/a_logo.svg")
         }
     }
 }
