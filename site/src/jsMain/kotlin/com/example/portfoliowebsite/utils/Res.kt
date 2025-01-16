@@ -33,8 +33,8 @@ object Res {
     }
 
     object Images {
-        const val LOGO_DARK = "images/a_ssharma_dark.svg"
-        const val LOGO_LIGHT = "images/a_ssharma_light.svg"
+        const val LOGO_DARK = "images/a_sharma_dark.svg"
+        const val LOGO_LIGHT = "images/a_sharma_light.svg"
         const val KOBWEB = "images/kobweb.png"
 
         const val START_IMAGE = "images/start_imagee.svg"
